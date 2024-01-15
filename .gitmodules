@@ -1,0 +1,3 @@
+[submodule "custom-spb-libs"]
+	path = custom-spb-libs
+	url = https://github.com/moseschanx/custom-spb-libs
