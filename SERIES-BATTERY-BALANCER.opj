@@ -27,6 +27,11 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (CAP-MLCC-0805-22uF-6.3V-20%-X5R
+      (FullPartName "CAP-MLCC-0805-22uF-6.3V-20%-X5R.Normal")
+      (LibraryName
+         "C:\USERS\MOSES\CODE\SERIES-BATTERY-BALANCER\CUSTOM-SPB-LIBS\LIBRAIRES\C-DISCRETE.OLB")
+      (DeviceIndex "0"))
     (RES-0402-?R-1%-1/16W
       (FullPartName "RES-0402-?R-1%-1/16W.Normal")
       (LibraryName
@@ -64,27 +69,28 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "C:\Users\moses\code\series-battery-balancer\series-battery-balancer.dsn")
+         "C:\USERS\MOSES\CODE\SERIES-BATTERY-BALANCER\series-battery-balancer.dsn")
       (Path "Design Resources"
-         "C:\Users\moses\code\series-battery-balancer\series-battery-balancer.dsn"
+         "C:\USERS\MOSES\CODE\SERIES-BATTERY-BALANCER\series-battery-balancer.dsn"
          "SCHEMATIC1")
-      (Path "Design Resources"
-         "C:\Users\moses\code\series-battery-balancer\series-battery-balancer.dsn"
-         "Design Cache")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\libraries\prj_spec.olb"))
+      (Path "Design Resources" "Library"
+         "C:\USERS\MOSES\CODE\SERIES-BATTERY-BALANCER\libraries\prj_spec.olb")
+      (Select "Design Resources"
+         "C:\USERS\MOSES\CODE\SERIES-BATTERY-BALANCER\series-battery-balancer.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 755"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 732"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1334 24 773")
-        (Scroll "132 43")
-        (Zoom "196")
+        (Placement "44 0 1 -1 -1 5 24 5 1334 24 773")
+        (Scroll "-154 0")
+        (Zoom "102")
         (Occurrence "/"))
       (Path
          "C:\USERS\MOSES\CODE\SERIES-BATTERY-BALANCER\SERIES-BATTERY-BALANCER.DSN")
